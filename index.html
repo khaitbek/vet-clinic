@@ -13,14 +13,13 @@
 
 <body>
     <!-- site header start -->
-    <header class="site-header">
+    <header class="site-header header">
         <div class="container">
             <div class="header__wrapper">
                 <div class="header__inner d-flex">
-                    <address class="header__adress">
-                        <p class="header__adress__text">
-                            г. Мариуполь, проспект Победы, 48а
-                        </p>
+                    <address class="site-adress">
+                        <a class="site-adress__link" target="blank" href="https://goo.gl/maps/VSssSL6Ysaw5apc8A">г.
+                            Мариуполь, проспект Победы, 48а</a>
                     </address>
 
 
@@ -84,6 +83,8 @@
                                 Контакты
                             </a>
                         </li>
+
+
                     </ul>
                 </nav>
 
@@ -146,24 +147,66 @@
                         Наши услуги
                     </h2>
                     <button class="btn services__btn arrow-left arrow"></button>
-                    <ul class="services__list d-flex">
-                        <li class="services__item services__item--active">
-                            <h3 class="services__item__title">Первичный осмотр</h3>
+                    <ul class="services__list" aria-label="Our services">
+                        <li class="services__item services__item--active" aria-label="Our service">
+                            <a class="services__item__link" href="#">
+                                <h3 class="services__item__title">Первичный осмотр</h3>
+                            </a>
                         </li>
-                        <li class="services__item">
-                            <h3 class="services__item__title">Первичный осмотр</h3>
+                        <li class="services__item" aria-label="Our service">
+                            <a class="services__item__link" href="#">
+                                <h3 class="services__item__title">Первичный осмотр</h3>
+                            </a>
                         </li>
-                        <li class="services__item">
-                            <h3 class="services__item__title">Хирургическое вмешательство</h3>
+                        <li class="services__item" aria-label="Our service">
+                            <a class="services__item__link" href="#">
+                                <h3 class="services__item__title">Хирургическое вмешательство</h3>
+                            </a>
                         </li>
-                        <li class="services__item">
-                            <h3 class="services__item__title">Дерматология</h3>
+                        <li class="services__item" aria-label="Our service">
+                            <a class="services__item__link" href="#">
+                                <h3 class="services__item__title">Дерматология</h3>
+                            </a>
                         </li>
-                        <li class="services__item">
-                            <h3 class="services__item__title">Лабораторная диагностика</h3>
+                        <li class="services__item" aria-label="Our service">
+                            <a class="services__item__link" href="#">
+                                <h3 class="services__item__title">Лабораторная диагностика</h3>
+                            </a>
                         </li>
-                        <li class="services__item">
-                            <h3 class="services__item__title">Офтальмология</h3>
+                        <li class="services__item" aria-label="Our service">
+                            <a class="services__item__link" href="#">
+                                <h3 class="services__item__title">Офтальмология</h3>
+                            </a>
+                        </li>
+                        <li class="services__item" aria-label="Our service">
+                            <a class="services__item__link" href="#">
+                                <h3 class="services__item__title">Первичный осмотр</h3>
+                            </a>
+                        </li>
+                        <li class="services__item" aria-label="Our service">
+                            <a class="services__item__link" href="#">
+                                <h3 class="services__item__title">Первичный осмотр</h3>
+                            </a>
+                        </li>
+                        <li class="services__item" aria-label="Our service">
+                            <a class="services__item__link" href="#">
+                                <h3 class="services__item__title">Хирургическое вмешательство</h3>
+                            </a>
+                        </li>
+                        <li class="services__item" aria-label="Our service">
+                            <a class="services__item__link" href="#">
+                                <h3 class="services__item__title">Дерматология</h3>
+                            </a>
+                        </li>
+                        <li class="services__item" aria-label="Our service">
+                            <a class="services__item__link" href="#">
+                                <h3 class="services__item__title">Лабораторная диагностика</h3>
+                            </a>
+                        </li>
+                        <li class="services__item" aria-label="Our service">
+                            <a class="services__item__link" href="#">
+                                <h3 class="services__item__title">Офтальмология</h3>
+                            </a>
                         </li>
                     </ul>
                     <button class="btn services__btn arrow-right arrow"></button>
@@ -202,11 +245,12 @@
                 <div class="article__wrapper">
                     <h2 class="article__title">Будь в курсе событий</h2>
 
-                    <form class="article__form" action="https://echo.hmtlacademy.ru/courses" method="post">
-                        <input class="article__input" name="input" aria-label="Enter your email" type="email"
-                            placeholder="Укажите Ваш email адрес">
+                    <form class="article__form" method="post" action="https://echo.htmlacademy.ru/courses"
+                        autocomplete="off">
+                        <input class="article__input form-input" name="user_email" aria-label="Enter your email"
+                            type="email" placeholder="Укажите Ваш email адрес">
 
-                        <button class="btn form__btn dark-btn" type="submit">Подписаться</button>
+                        <button class="btn article__btn dark-btn" type="submit">Подписаться</button>
                     </form>
                 </div>
             </div>
@@ -224,9 +268,9 @@
 
                         <div class="blogs__item__inner">
                             <ul class="blogs__item__hash__list hash-list d-flex">
-                                <li class="hash__item">#собака</li>
-                                <li class="hash__item">#дом</li>
-                                <li class="hash__item">#уход</li>
+                                <li class="hash-list__item">#собака</li>
+                                <li class="hash-list__item">#дом</li>
+                                <li class="hash-list__item">#уход</li>
                             </ul>
                             <time class="blogs__time" datetime="2022-03-08">
                                 29.08.2020
@@ -250,9 +294,9 @@
                     <li class="blogs__item  blogs__item--active">
                         <div class="blogs__item__inner">
                             <ul class="blogs__item__hash__list hash-list d-flex">
-                                <li class="hash__item">#собака</li>
-                                <li class="hash__item">#дом</li>
-                                <li class="hash__item">#уход</li>
+                                <li class="hash-list__item">#собака</li>
+                                <li class="hash-list__item">#дом</li>
+                                <li class="hash-list__item">#уход</li>
                             </ul>
                             <time class="blogs__time" datetime="2022-03-08">
                                 29.08.2020
@@ -278,9 +322,9 @@
                     <li class="blogs__item">
                         <div class="blogs__item__inner">
                             <ul class="blogs__item__hash__list hash-list d-flex">
-                                <li class="hash__item">#собака</li>
-                                <li class="hash__item">#дом</li>
-                                <li class="hash__item">#уход</li>
+                                <li class="hash-list__item">#собака</li>
+                                <li class="hash-list__item">#дом</li>
+                                <li class="hash-list__item">#уход</li>
                             </ul>
                             <time class="blogs__time" datetime="2022-03-08">
                                 29.08.2020
@@ -308,15 +352,32 @@
 
         <!-- contact section start -->
         <section class="contact">
-            <div class="contact__wrapper">
-                <iframe class="contact__map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d86886.98883408702!2d37.561776221659606!3d47.1143911659769!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40e6e40f33490a65%3A0xec22bee4fd6eb8cb!2z0JfQvtC-0L_QsNGA0LouINCf0LDRgNC6INC00LjQutC-0Lkg0L_RgNC40YDQvtC00Ys!5e0!3m2!1sru!2s!4v1659510545307!5m2!1sru!2s" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <div class="contact__wrapper d-flex">
+                <iframe class="contact__map"
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d86886.98883408702!2d37.561776221659606!3d47.1143911659769!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40e6e40f33490a65%3A0xec22bee4fd6eb8cb!2z0JfQvtC-0L_QsNGA0LouINCf0LDRgNC6INC00LjQutC-0Lkg0L_RgNC40YDQvtC00Ys!5e0!3m2!1sru!2s!4v1659510545307!5m2!1sru!2s"
+                    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
 
-                <form class="contact__form" action="https://echo.htmlacademy.ru/courses" autocomplete="off">
-                    <input class="input contact__name" name="user_name" aria-label="enter your name" type="text" placeholder="Ваше имя">
-                    <input class="input contact__name" name="user_email" aria-label="enter your email" type="email" placeholder="Email для обратной связи">
-                    <textarea name="user_text" cols="30" rows="10" placeholder="Опишите Ваш вопрос.
-                    : в каком возрасте можно прививать от бешенства?"></textarea>
-
+                <form class="contact__form" action="https://echo.htmlacademy.ru/courses" method="post"
+                    autocomplete="off">
+                    <div class="contact__inner__wrapper">
+                        <div class="contact__inner">
+                            <h2 class="contact__form__title">
+                                Обратная связь
+                            </h2>
+                            <p class="contact__form__text">
+                                При возникновении вопросов по поводу работы клиники или консультаций, заполните форму
+                                ниже:
+                            </p>
+                        </div>
+                        <input class="form-input contact__input" name="user_name" aria-label="enter your name"
+                            type="text" placeholder="Ваше имя" minlength="3" required>
+                        <input class="form-input contact__input" name="user_email" aria-label="enter your email"
+                            type="email" placeholder="Email для обратной связи" required>
+                        <textarea class="contact__textarea" name="user_text" cols="30" rows="10" placeholder="Опишите Ваш вопрос.
+: в каком возрасте можно прививать от бешенства?" minlength="10" required></textarea>
+                        <button class="btn contact__btn yellow-btn">Задать нам вопрос</button>
+                    </div>
                 </form>
             </div>
         </section>
@@ -326,10 +387,67 @@
     <!-- main content end -->
 
     <!-- footer start -->
-    <footer class="site-footer">
+    <footer class="site-footer footer">
         <div class="container">
             <div class="footer__wrapper">
-                <h1></h1>
+                <a class="site-logo" href="#">
+                    <img class="site-logo__img" width="178" height="86" src="./images/logo.svg" alt="Vet Clinic's Logo">
+                </a>
+                <div class="footer__inner d-flex">
+                    <ul class="footer__list footer__list--primary">
+                        <li class="footer__item">
+                            <a class="footer__link" href="#">Главная</a>
+                        </li>
+                        <li class="footer__item">
+                            <a class="footer__link" href="#">О Клинике</a>
+                        </li>
+                        <li class="footer__item">
+                            <a class="footer__link" href="#">Наши Услуги</a>
+                        </li>
+                    </ul>
+
+                    <ul class="footer__list footer__list--secondary">
+                        <li class="footer__item">
+                            <a class="footer__link" href="#">Полезные Статьи</a>
+                        </li>
+                        <li class="footer__item">
+                            <a class="footer__link" href="#">FAQ</a>
+                        </li>
+                        <li class="footer__item">
+                            <a class="footer__link" href="#">Контакты</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer__outer">
+                    <ul class="time-list">
+                        <li class="time-list__item">
+                            <time datetime="2022-03-08" class="time-list__time">Пн - Пт 8:00 - 18:00</time>
+                        </li>
+                        <li class="time-list__item">
+                            <time datetime="2022-03-08" class="time-list__time">Сб - Вс 8:00 - 14:00</time>
+                        </li>
+                    </ul>
+
+
+
+                    <address class="site-adress">
+                        <a class="site-adress__link" target="blank" href="https://goo.gl/maps/VSssSL6Ysaw5apc8A">г.
+                            Мариуполь, <br> проспект Победы, 48а</a>
+                    </address>
+
+                    <ul class="phone-list">
+                        <li class="phone-list__item">
+                            <a class="phone-list__link" href="tel:+067634-75-74"> (067) 634 -75 - 74</a>
+                        </li>
+                        <li class="phone-list__item">
+                            <a class="phone-list__link" href="tel:+063757-01-31">(0637) 57 - 01 - 31</a>
+                        </li>
+                        <li class="phone-list__item">
+                            <a class="phone-list__link" href="tel:+098266-43-89">(098) 266 - 43 - 89</a>
+                        </li>
+                    </ul>
+                </div>
+
             </div>
         </div>
     </footer>
