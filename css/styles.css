@@ -464,7 +464,7 @@ input {
   position: absolute;
   width: 142px;
   top: -50px;
-  left: calc(50% - 600px);
+  left: calc(50% - 700px);
   height: 128px;
   background-image: url("../images/main/quotes/quotes.png");
   background-repeat: no-repeat;
