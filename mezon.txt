@@ -1,0 +1,53 @@
+1
+Maket qismi	Mezon	Maksium ball	O'quvchi olgan ball	Izoh																					
+
+151	0																						
+
+Qo'shimcha	sarlavhalar darajalari to'g'ri berilgan	3																							
+
+CSS prefikslangan	2																							
+CSS minifikatsiya qilingan	2																							
+Oxirgi natija CSSi main.min.css fayli sifatida sahifaga ulangan	2																							
+Sayt Netlifyga joylangan	2																							
+Accessibility tomondan qulayliklar qo'shilgan	4																							
+Rasmlar optimallashtirilgan	3																							
+Umumiy	HTML validator tekshiruvidan xatosiz o'tdi	5		Qo'pol xatolarning qolib ketishi 0 ball olishga sabab bo'ladi																					
+container stillari to'g'ri berilgan	3		En max-width yordamida berilgan va zarur margin va paddinglargina tatbiq qilingan																					
+faqat zarur stillargina global tanlab berilgan	2		body va img elementlari																					
+shriftlar @font-face yordamida to'g'ri ulangan	2		Shrift nomlarini ulayotganda bir xil nom berilgan. Masalan, "Roboto"; "Roboto Regular", "Roboto Medium"... emas.																					
+shriftlarni elementlarga tatbiq qilish bodyga berilgan	1																							
+kod indentatsiyasi tartibli	2																							
+sayt foni rasmi to'g'ri joylangan	2																							
+Sayt header qismi	Manzil uchun mos element ishlatilgan	1																							
+Telefon raqamlari o'ziga mos turdagi link hrefi bilan berilgan	1																							
+Rasmlar mos formatda eksport qilingan	2																							
+Rasmlar sahifaga to'g'ri usulda joylangan	2		Kontent rasmlar img tegi bilan, bezak rasmlari psevdoelementlar foni sifatida																					
+Sayt logotipi bosh sahifaga link sifatida ishlaydi	1																							
+Sayt logotipi joylashuvi to'g'ri berilgan	2																							
+Barcha elementlarning hover va active stillari to'liq berilgan	9		Telefon raqami, nav linklari va savol so'rash linki																					
+Linklar soni ortganda menyu faqat o'ziga kerakli joyni egallaydi va birinchi qatorga sig'magan linklarni keyingi qatorga tushirib yuboradi.	5																							
+Menyu gorizontal o'q bo'yicha markazda turadi.	2																							
+Hero	Ikki xil stildagi sarlavha yozuvi to'g'ri usulda tuzilgan	2																							
+Fondagi rasmlar 2 ta alohida rasm sifatida berilgan	3		Chap tomondagi kuchuk va mushuklar; to'tiqush																					
+Bo'limdagi interfaol elementning holati stillari to'g'ri berilgan	3																							
+Iqtibos qismi	Iqtibos uchun mos element ishlatilgan	1																							
+Iqtibos stillari to'g'ri berilgan	4																							
+Xizmatlar bo'limi	Xizmatlarni tanlash elementlari mos element bilan tuzilgan	2																							
+Slayder tugmalari to'g'ri joylashtirilgan	2																							
+Xizmatlar rasmlari to'g'ri usulda joylangan	2																							
+Xizmatlar rasmlari mos formatda eksport qilingan	2																							
+Bo'limdagi elementlarning holat stillari to'g'ri berilgan	12																							
+Obuna	Form elementi to'g'ri metod bilan ishlatilgan	3																							
+Inputning to'g'ri turi ishlatilgan	1																							
+Inputdagi yozilgan qiymatga ko'ra to'g'ri yoki xato ekanligini ko'rsatuvchi stillar to'g'ri berilgan	2																							
+Formda to'ldirilgan ma'lumotlar backenda yubora olinadi	3																							
+Fon rasmi to'g'ri joylangan	2																							
+Maqolalar	Maqolalar bo'limi HTMLi to'g'ri elementlar yordamida tuzilgan	5																							
+Elementlarning hover va active stillari to'g'ri berilgan	9																							
+Active class orqali elementning holati o'zgarishi (Bonus)	10																							
+Kontakt	Xarita rasmi Yandex Maps yoki Google Mapsdagi ixtiyoriy nuqta belgilangan sahifaga olib o'tadi	2																							
+Kontakt qismiga mos fon berilgan	1																							
+Forma to'g'ri tuzilgan	5																							
+Textarea ichidagi matn uzunligi kamida 3 ta belgi bo'lishi kerak	2																							
+Footer	Footerdagi linklar holatlari stillari to'g'ri berilgan	9																							
+Footer to'g'ri tuzilgan	4	
