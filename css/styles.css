@@ -1723,24 +1723,116 @@ input {
   color: var(--clr-white);
 }
 
+/*******************************
+  CONTACT PAGE
+********************************/
 
-@keyframes animate{
-  0%{
+.contact-hero {
+  position: relative;
+  background-image: url("../images/contact/kisspng-shar-pei-puppy-veterinarian-pet-stethoscope-veterinarian-5aec41564db012\ 1.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: calc(50% + 500px);
+}
+
+.contact-hero .hero__wrapper {
+  margin-left: 0;
+}
+
+.contact-list {
+  position: absolute;
+  bottom: 0;
+  display: flex;
+  gap: 120px;
+}
+
+.contact-list ul {
+  display: grid;
+}
+
+.contact-list ul::before,
+.contact-list ul li::before,
+.contact-list address::before,
+.contact-list .phone-list__item::before {
+  display: none;
+}
+
+.contact-list__item {
+  position: relative;
+}
+
+.contact-list__item::before {
+  content: "";
+  display: block;
+  width: 80px;
+  height: 70px;
+  margin-bottom: 30px;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.contact-list__item:nth-child(1):before {
+  background-image: url("../images/contact/location.svg");
+}
+
+.contact-list__item:nth-child(2):before {
+  background-image: url("../images/contact/calendar.svg");
+}
+
+.contact-list__item:nth-child(3):before {
+  background-image: url("../images/contact/phone.svg");
+}
+
+/* contact section */
+.contact-us {
+  margin-bottom: 60px;
+  padding-top: 264px;
+  background-image: url("../images/contact/Group\ 64.png");
+  background-repeat: no-repeat;
+  background-position: calc(50% + 100px);
+}
+
+.contact-us__title {
+  text-align: center;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 62px;
+}
+
+.location {
+  max-width: 1920px;
+  margin-inline: auto;
+  margin-bottom: 206px;
+}
+
+.location__wrapper iframe {
+  width: 55%;
+  height: auto;
+}
+
+.location__wrapper img {
+  width: 45%;
+  height: 466px;
+  object-fit: cover;
+}
+
+@keyframes animate {
+  0% {
     opacity: 0.1;
     transform: translateY(-50%);
   }
-  100%{
+  100% {
     opacity: 1;
     transform: translateY(0%);
   }
 }
 
-@keyframes animateOut{
-  0%{
+@keyframes animateOut {
+  0% {
     opacity: 1;
     transform: translateY(0%);
   }
-  100%{
+  100% {
     opacity: 0.1;
     transform: translateY(-50%);
   }
