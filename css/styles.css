@@ -1115,6 +1115,7 @@ input {
 }
 
 .contact__map {
+  z-index: -1;
   width: 30%;
   height: 700px;
 }
@@ -1178,7 +1179,6 @@ input {
   padding-top: 17px;
   padding-left: 22px;
   color: #dbdbdb;
-  resize: none;
 }
 
 .contact__textarea::-webkit-input-placeholder {
@@ -1698,6 +1698,12 @@ input {
 
 .textarea {
   padding: 17px 22px;
+
+  resize: none;
+  -webkit-resize: none;
+  -webkit-appearance: none;
+  appearance: none;
+  border: none;
 }
 
 .textarea::placeholder {
@@ -1784,12 +1790,21 @@ input {
 }
 
 /* contact section */
+.contact-big{
+  background-image: url("../images/contact/bg.png");
+  background-repeat: no-repeat;
+  background-position: left calc(50% - 600px) top 90px;
+  z-index: 100;
+}
+
 .contact-us {
-  margin-bottom: 60px;
+  padding-bottom: 60px;
   padding-top: 264px;
   background-image: url("../images/contact/Group\ 64.png");
   background-repeat: no-repeat;
+  background-size: contain contain;
   background-position: calc(50% + 100px);
+  z-index: 2;
 }
 
 .contact-us__title {
@@ -2010,12 +2025,12 @@ input {
   padding-bottom: 122px;
 }
 
-.open__wrapper{
+.open__wrapper {
   display: flex;
   gap: 143px;
 }
 
-.open__content{
+.open__content {
   display: flex;
   flex-direction: column-reverse;
 }
@@ -2032,8 +2047,7 @@ input {
   gap: 8px;
 }
 
-.open-path__link{
-
+.open-path__link {
   font-size: 14px;
   line-height: 18px;
   color: #949494;
@@ -2067,16 +2081,16 @@ input {
   color: #949494;
 }
 
-.open__wrapper .wrapper-list{
+.open__wrapper .wrapper-list {
   display: grid;
   grid-row-gap: 11px;
 }
 
-.open__wrapper .blogs__item{
+.open__wrapper .blogs__item {
   margin: 0;
 }
 
-.content__btn__container{
+.content__btn__container {
   display: flex;
   gap: 21px;
   margin-top: 64px;

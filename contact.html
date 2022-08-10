@@ -168,30 +168,38 @@
         <!-- hero section end -->
 
         <!-- contact section start -->
-        <section class="contact-us">
-            <div class="container">
-                <div class="contact-us__wrapper">
-                    <h2 class="contact-us__title">
-                        Как нас найти?
-                    </h2>
+        <section class="contact-big">
+            <section class="contact-us">
+                <div class="container">
+                    <div class="contact-us__wrapper">
+                        <h2 class="contact-us__title">
+                            Как нас найти?
+                        </h2>
+                    </div>
                 </div>
-            </div>
+            </section>
+
+            <!-- location section start -->
+            <section class="location">
+                <h2 class="visually-hidden">Our Location</h2>
+                <div class="location__wrapper d-flex">
+                    <iframe class="contact__map"
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2715.565682645302!2d37.642411599999996!3d47.1075844!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40e6e6701cd9c691%3A0xe9b99fd0268f089c!2z0L_RgNC-0YHQvy4g0J_QvtCx0LXQtNGLLCA0ONCwLCDQnNCw0YDQuNGD0L_QvtC70YwsINCU0L7QvdC10YbQutCw0Y8g0L7QsdC70LDRgdGC0YwsINCj0LrRgNCw0LjQvdCwLCA4NzUwMA!5e0!3m2!1sru!2s!4v1659527260298!5m2!1sru!2s"
+                        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+                    <!-- location image -->
+                    <img class="location__img" src="./images/contact/home.jpg"
+                        srcset="./images/contact/home.jpg 1x , ./images/contact/home@2x.jpg 2x"
+                        alt="Vet Clinic building">
+                </div>
+            </section>
+            <!-- location section end -->
+
         </section>
         <!-- contact section end -->
 
-        <!-- location section start -->
-        <section class="location">
-            <div class="location__wrapper d-flex">
-                <iframe class="contact__map"
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2715.565682645302!2d37.642411599999996!3d47.1075844!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40e6e6701cd9c691%3A0xe9b99fd0268f089c!2z0L_RgNC-0YHQvy4g0J_QvtCx0LXQtNGLLCA0ONCwLCDQnNCw0YDQuNGD0L_QvtC70YwsINCU0L7QvdC10YbQutCw0Y8g0L7QsdC70LDRgdGC0YwsINCj0LrRgNCw0LjQvdCwLCA4NzUwMA!5e0!3m2!1sru!2s!4v1659527260298!5m2!1sru!2s"
-                    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
-                    referrerpolicy="no-referrer-when-downgrade"></iframe>
 
-                <!-- location image -->
-                <img class="location__img" src="./images/contact/Mask Group.jpg" srcset="./images/contact/Mask Group.jpg 1x , ./images/contact/Mask Group@2x.jpg 2x" alt="Vet Clinic building">
-            </div>
-        </section>
-        <!-- location section end -->
     </main>
     <!-- main content end -->
 
@@ -294,7 +302,7 @@
                 <input class="form__input name-input" name="user_name" id="nameInput" type="text" placeholder="Ваше имя"
                     minlength="3" required>
                 <textarea class="form__textarea textarea" id="formTextArea" name="user_text" cols="30" rows="10"
-                    placeholder='Опишите Ваш вопрос.&#10Например: в каком возрасте можно прививать от бешенства?'
+                    placeholder='Опишите Ваш вопрос.&#10;Например: в каком возрасте можно прививать от бешенства?'
                     minlength="10" required></textarea>
                 <button class="btn form__btn dark-btn" type="submit">
                     Отправить
