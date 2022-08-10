@@ -1816,6 +1816,181 @@ input {
   object-fit: cover;
 }
 
+/*******************************
+  ABOUT PAGE
+********************************/
+
+.about-hero {
+  padding-bottom: 309px;
+  background-image: url("../images/about/kisspng-shar-pei-puppy-cat-kitten-veterinarian-veterinary-5acc8848a895d8\ 1.png"),
+    url("../images/about/Group\ 65.png");
+  background-repeat: no-repeat;
+  background-position: left calc(50% + 450px) bottom 0px,
+    left calc(50% - 400px) bottom 50px;
+  background-color: #e5e5e5;
+}
+
+.about-hero .hero__wrapper {
+  margin-left: 0;
+}
+
+.text-blue {
+  color: var(--clr-primary);
+}
+
+.text-yellow {
+  color: var(--clr-yellow);
+}
+
+.about {
+  max-width: 1920px;
+  margin: 0 auto;
+}
+
+.about__item {
+  display: flex;
+  align-items: center;
+}
+
+.about__item:nth-child(even) {
+  flex-direction: row-reverse;
+}
+.about__img {
+  width: 50%;
+  max-height: 550px;
+  object-fit: cover;
+}
+
+.about__item:nth-child(odd) .about__img {
+  margin-right: 112px;
+}
+
+.about__item:nth-child(even) .about__img {
+  margin-left: 112px;
+}
+
+.about__text {
+  font-size: 20px;
+  line-height: 26px;
+  color: #949494;
+}
+
+.about__item:nth-child(odd) .about__text {
+  margin-right: 66px;
+}
+
+.about__item:nth-child(even) .about__text {
+  margin-right: 177px;
+}
+
+/*******************************
+  BEAUTY SECTION
+********************************/
+
+.beauty {
+  max-width: 1920px;
+  margin: 0 auto;
+  padding-left: 177px;
+  padding-bottom: 145px;
+  overflow-x: hidden;
+}
+
+.beauty__wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.beauty__inner {
+  width: min(450px, 60%);
+  margin-right: 30px;
+}
+
+.beauty__title {
+  margin-bottom: 24px;
+  font-weight: var(--fw-bold);
+  font-size: 46px;
+  line-height: 48px;
+  color: var(--clr-dark);
+}
+
+.beauty__text {
+  margin-bottom: 88px;
+  line-height: 20px;
+  color: #949494;
+}
+
+.beauty__inner__wrapper {
+  display: flex;
+  gap: 75px;
+  align-items: center;
+}
+
+.btn-chevron-left,
+.btn-chevron-right {
+  width: 9px;
+  height: 16px;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.btn-chevron-left {
+  margin-right: 64px;
+  background-image: url("../images/contact/1.svg");
+}
+
+.btn-chevron-right {
+  background-image: url("../images/contact/2.svg");
+}
+
+.beauty__counter {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 37px;
+  height: 42px;
+}
+
+.beauty__counter::before {
+  content: "";
+  position: absolute;
+  width: 1px;
+  height: 100%;
+  background-color: var(--clr-dark);
+  transform: rotate(45deg);
+}
+
+.beauty__counter span {
+  display: block;
+}
+
+.beauty__counter span:nth-child(1) {
+  align-self: flex-start;
+  font-size: 20px;
+  line-height: 22px;
+  color: var(--clr-dark);
+}
+
+.beauty__counter span:nth-child(2) {
+  align-self: flex-end;
+  margin-bottom: 17px;
+  font-size: 14px;
+  line-height: 22px;
+  color: #949494;
+}
+
+.beauty__list {
+  display: flex;
+  gap: 20px;
+  width: 50%;
+}
+
+.beauty__img{
+  /* width: 300px; */
+  /* height: 400px; */
+}
+
 @keyframes animate {
   0% {
     opacity: 0.1;
