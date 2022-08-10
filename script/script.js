@@ -1,6 +1,6 @@
 let questionsLinks = document.querySelectorAll("#questionLink");
 let dialog = document.querySelector("dialog");
-let closeBtn = dialog.querySelector(".close-btn")
+let closeBtn = dialog.querySelector(".close-btn");
 
 questionsLinks.forEach(link => {
     link.addEventListener("click", (e) => {

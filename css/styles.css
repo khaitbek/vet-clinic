@@ -1986,9 +1986,100 @@ input {
   width: 50%;
 }
 
-.beauty__img{
+.beauty__img {
   /* width: 300px; */
   /* height: 400px; */
+}
+
+/*******************************
+  SERVICES OPEN HERO
+********************************/
+
+.services-open-hero {
+  max-width: 1920px;
+  max-height: 530px;
+  margin: 0 auto;
+  background-image: url("../images/services/perviy-bg.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+.open {
+  padding-top: 33px;
+  padding-bottom: 122px;
+}
+
+.open__wrapper{
+  display: flex;
+  gap: 143px;
+}
+
+.open__content{
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+.open-path__list {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 33px;
+}
+
+.open-path__item {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.open-path__link{
+
+  font-size: 14px;
+  line-height: 18px;
+  color: #949494;
+}
+
+.open-path__item:not(:first-child)::before {
+  content: "";
+  display: block;
+  width: 3px;
+  height: 3px;
+  border-radius: 50%;
+  background-color: var(--clr-yellow);
+}
+
+.open-path__item:last-child .open-path__link {
+  font-size: 14px;
+  line-height: 18px;
+  color: var(--clr-dark);
+}
+
+.content__title {
+  margin-bottom: 28px;
+  font-weight: 700;
+  font-size: 70px;
+  line-height: 64px;
+  color: var(--clr-dark);
+}
+
+.content__text {
+  line-height: 20px;
+  color: #949494;
+}
+
+.open__wrapper .wrapper-list{
+  display: grid;
+  grid-row-gap: 11px;
+}
+
+.open__wrapper .blogs__item{
+  margin: 0;
+}
+
+.content__btn__container{
+  display: flex;
+  gap: 21px;
+  margin-top: 64px;
 }
 
 @keyframes animate {
